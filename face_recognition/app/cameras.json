@@ -1,0 +1,11 @@
+[
+    {
+        "id": "1",
+        "name": "Front Gate",
+        "location": "Main Entrance",
+        "rtsp_url": "rtsp://192.168.0.125:8554/h264_ulaw.sdp",
+        "status": "active",
+        "gate": "A",
+        "type": "entry"
+    }
+]
