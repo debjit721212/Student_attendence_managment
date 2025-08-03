@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+
+# Jupyter
+*.ipynb_checkpoints
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.swp
+
+# Node/React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# DeepStream/Models
+models/*.onnx
+models/*.engine
+models/*.pth
+models/*.pb
+models/*.h5
+models/*.pt
+models/*.ckpt
+models/*.tflite
+models/*.trt
+models/*.zip
+models/*.tar.gz
+models/*.npz
+models/*.npy
+
+# Photos, images, and video data
+photos/
+photo/
+student_image/
+unknown_faces/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.mp4
+*.avi
+*.mov
+
+# Milvus, Minio, Etcd, and Docker volumes
+volumes/
+volumes/*
+volumes/**/*
+docker-compose.yml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+log/
+
+# Misc
+.DS_Store
+Thumbs.db
